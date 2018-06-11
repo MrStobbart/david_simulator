@@ -1,0 +1,44 @@
+DONE ----- Get Pytest working on palnisphere_tests.py and app_tests.py
+
+Get moving through all Rooms working
+
+Think about how to implement Parser
+(Needed Categories:
+
+Directions by direct naming of the room - i.e. 'Flur' ----- can directions be imported into the Lexicon from planisphere?
+Objects - i.e. 'Tür', 'Tisch', etc...
+Verbs - i.e. 'geh'/'gehen', 'schlag'/'schlagen', 'nimm'/'nehmen', 'iss'/'essen'
+
+How to deal with synonyms?
+
+Decide on one single basic command name (i.e. direction name, object name, verb name)
+For each command name create a list with synonyms.
+If input is in that list replace input with basic command name
+
+Available object interaction combination:
+
+Should be easy to input combinations - i.e. I want that if the user tries to
+use that object with that object that this happens. These combinations could be stored
+in a nested dictionary: http://python.omics.wiki/data-structures/dictionary/multiple-keys
+
+Tasks:
+
+DONE ------ Import Directions and Objects to Lexicon from planisphere.py
+Create basic actions ('go', 'hit', 'take')
+Implement synonym processing in lexicon so that every input is converted to the determined command names.
+
+)
+
+Plan most Scene actions
+
+Implement Scene action to the Rooms
+
+Use placeholder images to figure out frontend (descriptions, input and output)
+
+Implement real pictures
+
+Create landing page
+
+Make the Simulator available online (pay attention to security)
+
+Create english and עברית versions
