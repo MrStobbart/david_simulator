@@ -1,8 +1,8 @@
 DONE ----- Get Pytest working on palnisphere_tests.py and app_tests.py
 
-Get moving through all Rooms working
+DONE ----- Get moving through all Rooms working
 
-Think about how to implement Parser
+WIP --- Think about how to implement Parser
 (Needed Categories:
 
 Directions by direct naming of the room - i.e. 'Flur' ----- can directions be imported into the Lexicon from planisphere?
@@ -21,12 +21,20 @@ Should be easy to input combinations - i.e. I want that if the user tries to
 use that object with that object that this happens. These combinations could be stored
 in a nested dictionary: http://python.omics.wiki/data-structures/dictionary/multiple-keys
 
+We want:
+Set of basic direction names(imported)
+Set of basic verb names(determined in lexicon_resources)
+Set of basic object names(imported)
+
+A way to store synonyms and their basic name
+A way to find synonyms in the input and replace them with the basic name
+
+
 Tasks:
 
 DONE ------ Import Directions and Objects to Lexicon from planisphere.py
 Create basic actions ('go', 'hit', 'take')
 Implement synonym processing in lexicon so that every input is converted to the determined command names.
-
 )
 
 Plan most Scene actions
