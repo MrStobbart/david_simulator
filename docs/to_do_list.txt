@@ -34,8 +34,14 @@ Tasks:
 
 DONE ------ Import Directions and Objects to Lexicon from planisphere.py
 Create basic actions ('go', 'hit', 'take')
-Implement synonym processing in lexicon so that every input is converted to the determined command names.
+DONE ------ Implement synonym processing in lexicon so that every input is converted to the determined command names.
 )
+
+Write tests for UI
+
+Create Inventory
+
+Create Life Points and Strength Points
 
 Plan most Scene actions
 
