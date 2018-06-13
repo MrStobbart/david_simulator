@@ -37,9 +37,11 @@ Create basic actions ('go', 'hit', 'take')
 DONE ------ Implement synonym processing in lexicon so that every input is converted to the determined command names.
 )
 
-Write tests for UI
+DONE ------ Write tests for UI
 
 Create Inventory
+
+Add Check Inventory/Gamestate Command
 
 Create Life Points and Strength Points
 
@@ -56,3 +58,12 @@ Create landing page
 Make the Simulator available online (pay attention to security)
 
 Create english and עברית versions
+
+Write fuzz test for UI
+
+Improve Code (Get Feedback, Look for alternative solutions)
+
+
+BUGS TO BE FIXED:
+
+Error messages return list with clean_words as output rather than user input.
