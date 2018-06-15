@@ -39,9 +39,11 @@ DONE ------ Implement synonym processing in lexicon so that every input is conve
 
 DONE ------ Write tests for UI
 
-Create Inventory
+DONE ------ Create Inventory
 
-Add Check Inventory/Gamestate Command
+DONE ------ Add Check Inventory/Gamestate Command
+
+Fix Pytest Fixture so that test_check_gamestate() does not contain 'pflanze' anymore
 
 Create Life Points and Strength Points
 
@@ -62,6 +64,7 @@ Create english and עברית versions
 Write fuzz test for UI
 
 Improve Code (Get Feedback, Look for alternative solutions)
+Put action Error messages in dict in new module.
 
 
 BUGS TO BE FIXED:
