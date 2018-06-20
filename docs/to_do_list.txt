@@ -3,12 +3,24 @@ DONE ----- Get Pytest working on palnisphere_tests.py and app_tests.py
 DONE ----- Get moving through all Rooms working
 
 DONE --- Think about how to implement Parser
+(Needed Categories:
+
+
+
+Available object interaction combination:
+
+Should be easy to input combinations - i.e. I want that if the user tries to
+use that object with that object that this happens. These combinations could be stored
+in a nested dictionary: http://python.omics.wiki/data-structures/dictionary/multiple-keys
+
+
+
+Tasks:
 
 DONE ------ Import Directions and Objects to Lexicon from planisphere.py
-
-DONE ------ Create basic actions ('go', 'hit', 'take')
-
+Create basic actions ('go', 'hit', 'take')
 DONE ------ Implement synonym processing in lexicon so that every input is converted to the determined command names.
+)
 
 DONE ------ Write tests for UI
 
@@ -22,13 +34,9 @@ DONE ------ Create Life Points and Strength Points
 
 DONE ------ Plan most Scene actions
 
-DONE ------ Add 'with' actions to attack
+Create 'with' feature and combination of objects
 
-Rewrite build() test so that inventory only contains test objects when testing.
-
-Add 'special_actions' feature to consume
-
-DONE ------ Create 'building' feature
+Create 'building' feature
 
 Implement Scene action to the Rooms
 
@@ -48,6 +56,6 @@ Improve Code (Get Feedback, Look for alternative solutions)
 Put action Error messages in dict in new module.
 
 
-################## BUGS TO BE FIXED #################
+BUGS TO BE FIXED:
 
 Error messages return list with clean_words as output rather than user input.
